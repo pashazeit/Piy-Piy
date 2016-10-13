@@ -11,9 +11,9 @@ public class Main {
 
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
-       String a = reader.readLine();
+       String name = reader.readLine(); 
 
-        System.out.println(a);
+        System.out.println(name);
 
     }
 }
