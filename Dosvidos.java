@@ -9,12 +9,12 @@ public class Dosvidos {
     public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
-        String s = " ";
+        String text = " ";
 
         while ( !(s.equals ("пока")))
         {
-          s = reader.readLine();
-            System.out.println(s);
+          text = reader.readLine();
+            System.out.println(text);
         }
 
             System.out.println("досвидос");
