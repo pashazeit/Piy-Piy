@@ -11,7 +11,7 @@ public class Dosvidos {
 
         String text = " ";
 
-        while ( !(s.equals ("пока")))
+        while ( !(text.equals ("пока")))
         {
           text = reader.readLine();
             System.out.println(text);
