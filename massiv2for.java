@@ -19,7 +19,7 @@ public class massiv2for {
         }
 
         for (int i = mass.length - 1; i > 0; i--)
-
+        {
             for (int p = 0; p < i; p++)
             {
                 if (mass[p] > mass[p + 1])
@@ -29,7 +29,8 @@ public class massiv2for {
                     mass[p + 1] = temp;
                 }
             }
-
+        }
+        
         for (int i = 0; i < mass.length; i++)
         {
             System.out.print(mass[i] + " ");
